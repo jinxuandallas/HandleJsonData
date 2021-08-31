@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://convert_json_data/TestJson.gd" type="Script" id=1]
+
+[node name="TestJson" type="Node2D"]
+script = ExtResource( 1 )

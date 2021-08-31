@@ -21,11 +21,16 @@ _global_script_class_icons={
 [application]
 
 config/name="Handle Json Data"
+run/main_scene="res://convert_json_data/test_json.tscn"
 config/icon="res://icon.png"
 
 [gdnative]
 
 singletons=[ "res://git_api.gdnlib" ]
+
+[global]
+
+debug=false
 
 [physics]
 
