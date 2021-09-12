@@ -1,0 +1,564 @@
+[
+	{
+		"Id": 0,
+		"Name": "祋栩",
+		"Jun": "左冯翊",
+		"JunZhi": false,
+		"ArchitectureType": 0,
+		"MapPosition": [
+			66,
+			71
+		],
+		"Agriculture": 200,
+		"Commerce": 200,
+		"Endurance": 400,
+		"Food": 20000,
+		"Fund": 1200,
+		"Population": 30000,
+		"PersonsString": "",
+		"Support": 50
+	},
+	{
+		"Id": 1,
+		"Name": "高陵",
+		"Jun": "左冯翊",
+		"JunZhi": true,
+		"ArchitectureType": 0,
+		"MapPosition": [
+			73,
+			76
+		],
+		"Agriculture": 200,
+		"Commerce": 200,
+		"Endurance": 400,
+		"Food": 20000,
+		"Fund": 200,
+		"Population": 30000,
+		"PersonsString": "9282",
+		"Support": 50
+	},
+	{
+		"Id": 2,
+		"Name": "安邑",
+		"Jun": "河东郡",
+		"JunZhi": true,
+		"ArchitectureType": 1,
+		"MapPosition": [
+			94,
+			66
+		],
+		"Agriculture": 200,
+		"Commerce": 200,
+		"Endurance": 400,
+		"Food": 20000,
+		"Fund": 1200,
+		"Population": 120000,
+		"PersonsString": "",
+		"Support": 50
+	},
+	{
+		"Id": 3,
+		"Name": "蒲坂津",
+		"Jun": "",
+		"JunZhi": false,
+		"ArchitectureType": 1,
+		"MapPosition": [
+			86,
+			70
+		],
+		"Agriculture": 200,
+		"Commerce": 200,
+		"Endurance": 400,
+		"Food": 20000,
+		"Fund": 200,
+		"Population": 5000,
+		"PersonsString": "",
+		"Support": 50
+	},
+	{
+		"Id": 4,
+		"Name": "临晋",
+		"Jun": "左冯翊",
+		"JunZhi": false,
+		"ArchitectureType": 0,
+		"MapPosition": [
+			81,
+			75
+		],
+		"Agriculture": 200,
+		"Commerce": 200,
+		"Endurance": 400,
+		"Food": 20000,
+		"Fund": 1200,
+		"Population": 30000,
+		"PersonsString": "9574 9575 ",
+		"Support": 50
+	},
+	{
+		"Id": 5,
+		"Name": "弘农",
+		"Jun": "弘农郡",
+		"JunZhi": true,
+		"ArchitectureType": 0,
+		"MapPosition": [
+			94,
+			78
+		],
+		"Agriculture": 200,
+		"Commerce": 200,
+		"Endurance": 400,
+		"Food": 200000,
+		"Fund": 1200,
+		"Population": 80000,
+		"PersonsString": "60 203 310 414 415 ",
+		"Support": 50
+	},
+	{
+		"Id": 6,
+		"Name": "潼关",
+		"Jun": "",
+		"JunZhi": "",
+		"ArchitectureType": 2,
+		"MapPosition": [
+			88,
+			79,
+			88,
+			78,
+			88,
+			77,
+			88,
+			80
+		],
+		"Agriculture": 0,
+		"Commerce": 0,
+		"Endurance": 500,
+		"Food": 0,
+		"Fund": 0,
+		"Population": 0,
+		"PersonsString": "",
+		"Support": 50
+	},
+	{
+		"Id": 7,
+		"Name": "函谷关",
+		"Jun": "",
+		"JunZhi": "",
+		"ArchitectureType": 2,
+		"MapPosition": [
+			98,
+			79,
+			98,
+			78,
+			98,
+			77
+		],
+		"Agriculture": 0,
+		"Commerce": 0,
+		"Endurance": 400,
+		"Food": 0,
+		"Fund": 0,
+		"Population": 0,
+		"PersonsString": "",
+		"Support": 50
+	},
+	{
+		"Id": 8,
+		"Name": "怀县",
+		"Jun": "河内郡",
+		"JunZhi": true,
+		"ArchitectureType": 0,
+		"MapPosition": [
+			115,
+			67
+		],
+		"Agriculture": 200,
+		"Commerce": 200,
+		"Endurance": 400,
+		"Food": 20000,
+		"Fund": 200,
+		"Population": 120000,
+		"PersonsString": "28 549 ",
+		"Support": 50
+	},
+	{
+		"Id": 9,
+		"Name": "温县",
+		"Jun": "河内郡",
+		"JunZhi": false,
+		"ArchitectureType": 0,
+		"MapPosition": [
+			111,
+			69
+		],
+		"Agriculture": 200,
+		"Commerce": 200,
+		"Endurance": 400,
+		"Food": 20000,
+		"Fund": 1500,
+		"Population": 120000,
+		"PersonsString": "89 29 32 35 37 43 210 225 226 227 228 229 230 231 232 233 240 257 260 274 316 401 418 450 497 501 504 577 580 587 9178 9192 9201 9221 9274 9275 9277 9278 9281 9296 9306 9311 9360 9363 9369 9398 9405 9426 9467 9479 9486 ",
+		"Support": 50
+	},
+	{
+		"Id": 10,
+		"Name": "河阳津",
+		"Jun": "",
+		"JunZhi": false,
+		"ArchitectureType": 1,
+		"MapPosition": [
+			108,
+			71
+		],
+		"Agriculture": 100,
+		"Commerce": 100,
+		"Endurance": 400,
+		"Food": 10000,
+		"Fund": 100,
+		"Population": 5000,
+		"PersonsString": "",
+		"Support": 50
+	},
+	{
+		"Id": 11,
+		"Name": "箕关",
+		"Jun": "",
+		"JunZhi": "",
+		"ArchitectureType": 2,
+		"MapPosition": [
+			104,
+			69
+		],
+		"Agriculture": 0,
+		"Commerce": 0,
+		"Endurance": 800,
+		"Food": 0,
+		"Fund": 0,
+		"Population": 0,
+		"PersonsString": "",
+		"Support": 50
+	},
+	{
+		"Id": 12,
+		"Name": "小平津",
+		"Jun": "",
+		"JunZhi": false,
+		"ArchitectureType": 1,
+		"MapPosition": [
+			105,
+			75
+		],
+		"Agriculture": 100,
+		"Commerce": 100,
+		"Endurance": 400,
+		"Food": 10000,
+		"Fund": 100,
+		"Population": 5000,
+		"PersonsString": "",
+		"Support": 50
+	},
+	{
+		"Id": 13,
+		"Name": "孟津",
+		"Jun": "",
+		"JunZhi": false,
+		"ArchitectureType": 1,
+		"MapPosition": [
+			112,
+			76
+		],
+		"Agriculture": 0,
+		"Commerce": 0,
+		"Endurance": 400,
+		"Food": 0,
+		"Fund": 0,
+		"Population": 5000,
+		"PersonsString": "",
+		"Support": 50
+	},
+	{
+		"Id": 14,
+		"Name": "洛阳",
+		"Jun": "河南尹",
+		"JunZhi": true,
+		"ArchitectureType": 0,
+		"MapPosition": [
+			102,
+			79,
+			103,
+			79,
+			104,
+			79,
+			103,
+			80,
+			102,
+			80,
+			104,
+			80
+		],
+		"Agriculture": 200,
+		"Commerce": 200,
+		"Endurance": 400,
+		"Food": 50000,
+		"Fund": 3000,
+		"Population": 200000,
+		"PersonsString": "91 189 25 249 254 311 491 669 7003 9102 9154 9158 9165 9182 9207 9216 9217 9328 9346 9357 9364 9389 9484 9487 9561 9565 9567 9568 9618 9620 9623 9624 9628 9629 9630 ",
+		"Support": 50
+	},
+	{
+		"Id": 15,
+		"Name": "虎牢关",
+		"Jun": "",
+		"JunZhi": "",
+		"ArchitectureType": 2,
+		"MapPosition": [
+			116,
+			79,
+			116,
+			78,
+			116,
+			77,
+			116,
+			76,
+			116,
+			75
+		],
+		"Agriculture": 0,
+		"Commerce": 0,
+		"Endurance": 800,
+		"Food": 0,
+		"Fund": 0,
+		"Population": 0,
+		"PersonsString": "",
+		"Support": 50
+	},
+	{
+		"Id": 16,
+		"Name": "长安",
+		"Jun": "京兆尹",
+		"JunZhi": true,
+		"ArchitectureType": 0,
+		"MapPosition": [
+			72,
+			84,
+			72,
+			85,
+			71,
+			84,
+			71,
+			85,
+			73,
+			85,
+			73,
+			84
+		],
+		"Agriculture": 200,
+		"Commerce": 200,
+		"Endurance": 800,
+		"Food": 50000,
+		"Fund": 5000,
+		"Population": 100000,
+		"PersonsString": "65 598 9125 9199 9243 9244 9345 9377 9395 9432 9541 ",
+		"Support": 50
+	},
+	{
+		"Id": 17,
+		"Name": "槐里",
+		"Jun": "右扶风",
+		"JunZhi": true,
+		"ArchitectureType": 0,
+		"MapPosition": [
+			63,
+			81
+		],
+		"Agriculture": 200,
+		"Commerce": 200,
+		"Endurance": 400,
+		"Food": 40000,
+		"Fund": 1450,
+		"Population": 30000,
+		"PersonsString": "507 512 515 516 517 558 9303 9428 ",
+		"Support": 50
+	},
+	{
+		"Id": 18,
+		"Name": "成固",
+		"Jun": "汉中郡",
+		"JunZhi": false,
+		"ArchitectureType": 0,
+		"MapPosition": [
+			63,
+			98
+		],
+		"Agriculture": 200,
+		"Commerce": 200,
+		"Endurance": 400,
+		"Food": 20000,
+		"Fund": 1200,
+		"Population": 30000,
+		"PersonsString": "9553",
+		"Support": 50
+	},
+	{
+		"Id": 19,
+		"Name": "上洛",
+		"Jun": "京兆尹",
+		"JunZhi": false,
+		"ArchitectureType": 0,
+		"MapPosition": [
+			79,
+			89
+		],
+		"Agriculture": 200,
+		"Commerce": 200,
+		"Endurance": 400,
+		"Food": 20000,
+		"Fund": 1200,
+		"Population": 30000,
+		"PersonsString": "",
+		"Support": 50
+	},
+	{
+		"Id": 20,
+		"Name": "南乡",
+		"Jun": "南阳郡",
+		"JunZhi": false,
+		"ArchitectureType": 0,
+		"MapPosition": [
+			88,
+			97
+		],
+		"Agriculture": 200,
+		"Commerce": 200,
+		"Endurance": 400,
+		"Food": 20000,
+		"Fund": 200,
+		"Population": 30000,
+		"PersonsString": "",
+		"Support": 50
+	},
+	{
+		"Id": 21,
+		"Name": "武关",
+		"Jun": "",
+		"JunZhi": "",
+		"ArchitectureType": 2,
+		"MapPosition": [
+			85,
+			86
+		],
+		"Agriculture": 0,
+		"Commerce": 0,
+		"Endurance": 500,
+		"Food": 0,
+		"Fund": 0,
+		"Population": 0,
+		"PersonsString": "",
+		"Support": 50
+	},
+	{
+		"Id": 22,
+		"Name": "华阴",
+		"Jun": "弘农郡",
+		"JunZhi": false,
+		"ArchitectureType": 0,
+		"MapPosition": [
+			82,
+			80
+		],
+		"Agriculture": 200,
+		"Commerce": 200,
+		"Endurance": 400,
+		"Food": 20000,
+		"Fund": 1200,
+		"Population": 30000,
+		"PersonsString": "",
+		"Support": 50
+	},
+	{
+		"Id": 23,
+		"Name": "轩辕关",
+		"Jun": "",
+		"JunZhi": "",
+		"ArchitectureType": 2,
+		"MapPosition": [
+			115,
+			81
+		]
+	},
+	{
+		"Id": 24,
+		"Name": "广成关",
+		"Jun": "",
+		"JunZhi": "",
+		"ArchitectureType": 2,
+		"MapPosition": [
+			115,
+			84
+		],
+		"Agriculture": 0,
+		"Commerce": 0,
+		"Endurance": 800,
+		"Food": 0,
+		"Fund": 0,
+		"Population": 0,
+		"PersonsString": "",
+		"Support": 50
+	},
+	{
+		"Id": 25,
+		"Name": "宛县",
+		"Jun": "南阳郡",
+		"JunZhi": true,
+		"ArchitectureType": 0,
+		"MapPosition": [
+			107,
+			90
+		],
+		"Agriculture": 200,
+		"Commerce": 200,
+		"Endurance": 400,
+		"Food": 20000,
+		"Fund": 1450,
+		"Population": 200000,
+		"PersonsString": "9197 9388 ",
+		"Support": 50
+	},
+	{
+		"Id": 26,
+		"Name": "新野",
+		"Jun": "南阳郡",
+		"JunZhi": false,
+		"ArchitectureType": 0,
+		"MapPosition": [
+			107,
+			96
+		],
+		"Agriculture": 200,
+		"Commerce": 200,
+		"Endurance": 400,
+		"Food": 20000,
+		"Fund": 1200,
+		"Population": 40000,
+		"PersonsString": "",
+		"Support": 50
+	},
+	{
+		"Id": 27,
+		"Name": "伊阙关",
+		"Jun": "",
+		"JunZhi": "",
+		"ArchitectureType": 2,
+		"MapPosition": [
+			109,
+			80
+		],
+		"Agriculture": 0,
+		"Commerce": 0,
+		"Endurance": 800,
+		"Food": 0,
+		"Fund": 0,
+		"Population": 5000,
+		"PersonsString": "",
+		"Support": 50
+	}
+]

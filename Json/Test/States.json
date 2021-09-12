@@ -1,0 +1,117 @@
+[
+  {
+    "ID": 0,
+    "Name": "司隶",
+    "ContactStatesString": "1 2 5 6 10 14 ",
+    "StateAdminID": 0
+  },
+  {
+
+    "ID": 1,
+    "Name": "豫州",
+    "ContactStatesString": "0 2 8 10 ",
+    "StateAdminID": 6
+  },
+  {
+    "ID": 2,
+    "Name": "兖州",
+    "ContactStatesString": "0 1 3 4 5 ",
+    "StateAdminID": 37
+  },
+  {
+    "ID": 3,
+    "Name": "徐州",
+    "ContactStatesString": "1 2 4 8 9 ",
+    "StateAdminID": 35
+  },
+  {
+    "ID": 4,
+    "Name": "青州",
+    "ContactStatesString": "3 5 ",
+    "StateAdminID": 28
+  },
+  {
+    "ID": 5,
+    "Name": "冀州",
+    "ContactStatesString": "0 2 4 6 7 ",
+    "StateAdminID": 127
+  },
+  {
+    "ID": 6,
+    "Name": "并州",
+    "ContactStatesString": "0 5 7 14 17 ",
+    "StateAdminID": 129
+  },
+  {
+    "ID": 7,
+    "Name": "幽州",
+    "ContactStatesString": "5 6 17 ",
+    "StateAdminID": 141
+  },
+  {
+    "ID": 8,
+    "Name": "淮南",
+    "ContactStatesString": "1 3 9 10 ",
+    "StateAdminID": 23
+  },
+  {
+    "ID": 9,
+    "Name": "扬州",
+    "ContactStatesString": "3 8 11 16 18 ",
+    "StateAdminID": 43
+  },
+  {
+    "ID": 10,
+    "Name": "荆北",
+    "ContactStatesString": "0 1 8 11 12 14 ",
+    "StateAdminID": 9
+  },
+  {
+    "ID": 11,
+    "Name": "荆南",
+    "ContactStatesString": "9 10 12 16 ",
+    "StateAdminID": -1
+  },
+  {
+    "ID": 12,
+    "Name": "益州",
+    "ContactStatesString": "10 11 13 14 ",
+    "StateAdminID": 80
+  },
+  {
+    "ID": 13,
+    "Name": "南中",
+    "ContactStatesString": "12 ",
+    "StateAdminID": -1
+  },
+  {
+    "ID": 14,
+    "Name": "雍州",
+    "ContactStatesString": "0 6 10 12 15 ",
+    "StateAdminID": -1
+  },
+  {
+    "ID": 15,
+    "Name": "凉州",
+    "ContactStatesString": "14 ",
+    "StateAdminID": 189
+  },
+  {
+    "ID": 16,
+    "Name": "交州",
+    "ContactStatesString": "9 11 ",
+    "StateAdminID": 74
+  },
+  {
+    "ID": 17,
+    "Name": "漠北",
+    "ContactStatesString": "6 7 ",
+    "StateAdminID": -1
+  },
+  {
+    "ID": 18,
+    "Name": "夷州",
+    "ContactStatesString": "9 ",
+    "StateAdminID": -1
+  }
+]

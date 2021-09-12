@@ -21,6 +21,21 @@ func _read_test_json():
 	file.open("res://Json/test/280LWSG.json",File.READ)
 	var json_data=parse_json(file.get_as_text())
 
+#	_read_persons(json_data)
+	_read_state(json_data)
+	
+	file.close()
+#		print(json_data["AiBattlingArchitectureStrings"])
+
+func _read_state(json_data):
+	if json_data.size()<0:
+		return
+	var state_data=json_data["States"]["GameObjects"]
+	for s in state_data:
+		print(s)
+		
+		
+func _read_persons(json_data):
 	if json_data.size()>0:
 		print(json_data.size())
 #		for i in json_data:
@@ -35,7 +50,3 @@ func _read_test_json():
 	
 	for i in go_json:
 		print("Id:%s,%s%s"%[i["ID"], i["SurName"],i["GivenName"]])
-		
-		
-	file.close()
-#		print(json_data["AiBattlingArchitectureStrings"])

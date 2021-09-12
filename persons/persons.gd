@@ -29,13 +29,20 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
 #	pass
+
+	_save_persons()
+	
+	
 func _read_person_data():
 	var file=File.new()
 	if not file.file_exists("res://Json/test/280LWSG.json"):
 		print("文件不存在")
 		
 		return
-		
+	
+	var person_keys=["ID","SurName","GivenName","CalledName","BaseStrength","BaseCommand","BaseIntelligence","BasePolitics",
+	"BaseGlamour","PictureIndex","YearAvailable","YearBorn","YearDead","Sex","Ideal","PCharacter","AvailableLocation"
+	]	
 	file.open("res://Json/test/280LWSG.json",File.READ)
 	var json_data=parse_json(file.get_as_text())
 	
@@ -46,20 +53,27 @@ func _read_person_data():
 		var persons=json_data["Persons"]["GameObjects"]
 		
 		for i in persons:
-			person_arr.append({"ID":int(i["ID"]),
-				"SurName":i["SurName"],
-				"GivenName":i["GivenName"],
-				"CalledName":i["CalledName"],
-				"BaseStrength":i["BaseStrength"],# 武力
-				"BaseCommand":i["BaseCommand"],# 统率
-				"BaseIntelligence":i["BaseIntelligence"],# 智力
-				"BasePolitics":i["BasePolitics"],# 政治
-				"BaseGlamour":i["BaseGlamour"],# 魅力
-				"PictureIndex":i["PictureIndex"],
-				"YearAvailable":i["YearAvailable"],
-				"YearBorn":i["YearBorn"],
-				"YearDead":i["YearDead"],
-			})
+			var person:Dictionary
+			for key in person_keys:
+				if i[key] is float:
+					person[key]=int(i[key])
+				else:
+					person[key]=i[key]
+			person_arr.append(person)
+#			person_arr.append({"ID":int(i["ID"]),
+#				"SurName":i["SurName"],
+#				"GivenName":i["GivenName"],
+#				"CalledName":i["CalledName"],
+#				"BaseStrength":i["BaseStrength"],# 武力
+#				"BaseCommand":i["BaseCommand"],# 统率
+#				"BaseIntelligence":i["BaseIntelligence"],# 智力
+#				"BasePolitics":i["BasePolitics"],# 政治
+#				"BaseGlamour":i["BaseGlamour"],# 魅力
+#				"PictureIndex":i["PictureIndex"],
+#				"YearAvailable":i["YearAvailable"],
+#				"YearBorn":i["YearBorn"],
+#				"YearDead":i["YearDead"],
+#			})
 #		print("Id:%s,%s%s"%[i["ID"], i["SurName"],i["GivenName"]])
 		
 	file.close()
@@ -83,6 +97,12 @@ func _read_biographies():
 #				"Text":i["Text"]
 #			})
 		
+	file.close()
+
+func _save_persons():
+	var file=File.new()
+	file.open("res://Json/test/Persons.json",File.WRITE)
+	file.store_string(JSON.print(person_arr,"\t"))
 	file.close()
 	
 func _show_person(person_index):
@@ -120,7 +140,7 @@ func _show_portrait(person_index):
 	var file=File.new()
 	var portrait_path="res://image/PersonPortrait/%d.jpg"%person_index
 	if not file.file_exists(portrait_path):
-		print("文件不存在")
+#		print("文件不存在")
 		portrait_path="res://image/PersonPortrait/blank.jpg"
 		
 	$Panel/Sprite.texture=load(portrait_path)

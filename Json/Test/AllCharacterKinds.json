@@ -1,0 +1,60 @@
+{
+  "AllCharacterKinds": [
+    {
+      "ID": 0,
+      "Name": "Î´Öª",
+      "ChallengeChance": 0,
+      "ControversyChance": 0,
+      "GenerationChance": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+      "IntelligenceRate": 0
+    },
+    {
+      "ID": 1,
+      "Name": "Â³Ã§",
+      "ChallengeChance": 25,
+      "ControversyChance": 25,
+      "GenerationChance": [ 5, 20, 0, 0, 5, 0, 3, 5, 10, 0 ],
+      "IntelligenceRate": 0.5
+    },
+    {
+      "ID": 2,
+      "Name": "Ð¡ÐÄ",
+      "ChallengeChance": -25,
+      "ControversyChance": -15,
+      "GenerationChance": [ 3, 0, 3, 10, 5, 5, 3, 10, 5, 20 ],
+      "IntelligenceRate": 0.8
+    },
+    {
+      "ID": 3,
+      "Name": "¸ß°Á",
+      "ChallengeChance": 10,
+      "ControversyChance": 15,
+      "GenerationChance": [ 5, 3, 5, 10, 10, 20, 3, 5, 5, 5 ],
+      "IntelligenceRate": 0.7
+    },
+    {
+      "ID": 4,
+      "Name": "¼áÈÍ",
+      "ChallengeChance": 5,
+      "ControversyChance": 0,
+      "GenerationChance": [ 10, 10, 0, 0, 10, 5, 10, 5, 10, 5 ],
+      "IntelligenceRate": 0.9
+    },
+    {
+      "ID": 5,
+      "Name": "ÎÈ½¡",
+      "ChallengeChance": -10,
+      "ControversyChance": -10,
+      "GenerationChance": [ 10, 0, 10, 5, 10, 10, 10, 5, 10, 5 ],
+      "IntelligenceRate": 1
+    },
+    {
+      "ID": 6,
+      "Name": "Àä¾²",
+      "ChallengeChance": -15,
+      "ControversyChance": -5,
+      "GenerationChance": [ 5, 0, 20, 15, 10, 10, 10, 10, 5, 10 ],
+      "IntelligenceRate": 1
+    }
+  ]
+}
