@@ -40,7 +40,7 @@ func _read_person_data():
 		
 		return
 	
-	var person_keys=["ID","SurName","GivenName","CalledName","BaseStrength","BaseCommand","BaseIntelligence","BasePolitics",
+	var person_keys=["Id","SurName","GivenName","BaseStrength","BaseCommand","BaseIntelligence","BasePolitics",
 	"BaseGlamour","PictureIndex","YearAvailable","YearBorn","YearDead","Sex","Ideal","PCharacter","AvailableLocation"
 	]	
 	file.open("res://Json/test/280LWSG.json",File.READ)
@@ -59,6 +59,7 @@ func _read_person_data():
 					person[key]=int(i[key])
 				else:
 					person[key]=i[key]
+			person["CourtesyName"]=i["CalledName"]
 			person_arr.append(person)
 #			person_arr.append({"ID":int(i["ID"]),
 #				"SurName":i["SurName"],
